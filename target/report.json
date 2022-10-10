@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-29T11:25:18.339Z",
+        "line": 18,
+        "name": "Validate the login with the invalid username and valid password",
+        "description": "",
+        "id": "validate-the-login-page;validate-the-login-with-the-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4001200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters the valid invalid username and valid password",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_enters_the_valid_invalid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanityTesting"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-29T11:25:18.487Z",
+        "line": 25,
+        "name": "Validate the login with the valid username and invalid password",
+        "description": "",
+        "id": "validate-the-login-page;validate-the-login-with-the-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters the valid valid username and invalid password",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_enters_the_valid_valid_username_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is on the home page",
+            "match": {
+              "location": "stepDefinition.LoginPage.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the login page",
+    "description": "",
+    "id": "validate-the-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
